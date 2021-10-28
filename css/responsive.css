@@ -1,0 +1,188 @@
+@media screen and (max-width: 991px){
+    .seccion-proyectos .div-titulo{
+        margin-bottom: 6%;
+    }
+
+    .seccion-proyectos .div-general-imagen{
+        justify-content: center;
+        height: auto;
+        margin-top: 0;
+        padding-bottom: 0;
+    }
+
+    .seccion-proyectos .div-general-imagen .div-imagen{
+        width: 80%;
+    }
+
+    .seccion-proyectos .div-general-texto .div-tarjeta{
+        position: relative;
+        width: 80%;
+        height: auto;
+        padding-bottom: 15%;
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 5%;
+        background-color: #191919;
+    }
+
+    .seccion-proyectos .div-general-texto{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .div-general-foto .div-general-imagen{
+        width: 100vw;
+    }
+
+    .div-general-foto .div-blanco{
+        display: none;
+    }
+
+    .div-general-texto .div-texto-centro{
+        width: 100vw;
+    }
+
+    .div-general-texto .div-redes, .div-contacto{
+        display: none;
+    } 
+
+    /*Responsive para la seccion de "sobre mi"*/
+
+    .seccion-sobre-mi{
+        height: auto;
+    }
+
+    .seccion-sobre-mi .div-general-img .div-imagen{
+        display: flex;
+    }
+
+    .seccion-sobre-mi .div-general-img .div-fondo-imagen{
+        display: none;
+    }
+
+    .seccion-sobre-mi .div-general-text{
+        height: auto;
+        padding-bottom: 4%;
+    }
+
+    .seccion-sobre-mi .div-general-text .div-titulo{
+        display: flex;
+        width: 80%;
+        margin-top: 15%;
+    }
+
+    /*Responsive de seccion de servicios*/
+    .seccion-servicios .div-titulo .div-h2{
+        padding-top: 17%;
+    }
+
+    /*Responsive de seccion de proyectos*/
+    .seccion-proyectos .div-titulo .div-h2{
+        padding-top: 17%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .div-general-texto .div-texto-centro .div-nombre h1{
+        font-size: 50px;
+    }
+
+    .div-general-texto .div-texto-centro .div-animacion{
+        font-size: 25px;
+        color: #fff;
+    }
+    
+    .div-general-texto .div-texto-centro .div-animacion .oficio{
+        font-size: 25px;
+        color: #c70039;
+    }
+
+    /*Responsive para las letras de la seccion de proyectos*/
+    
+    .seccion-proyectos .div-general-texto .div-tarjeta h3{
+        font-size: 30px;
+    }
+
+    .seccion-proyectos .div-general-texto .div-tarjeta p{
+        font-size: 17px;
+    }  
+    /*Responsive para las letras de la seccion de contacto*/
+    
+    .seccion-contacto .div-titulo .div-h2 h2{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .seccion-contacto .div-icon a{
+        font-size: 50px;
+    }
+
+
+    footer .div-footer h6{
+        font-size: 15px;
+    }
+    
+}
+
+@media screen and (max-width: 400px){
+    .div-general-texto .div-texto-centro .div-nombre h1{
+        font-size: 40px;
+    }
+
+    .div-general-texto .div-texto-centro .div-animacion{
+        font-size: 20px;
+    }
+    
+    .div-general-texto .div-texto-centro .div-animacion .oficio{
+        font-size: 20px;
+    }
+
+    /*Responsive para la seccion de "sobre mi"*/
+    .seccion-sobre-mi .div-general-text .div-titulo h1{
+        font-size: 40px;
+    }
+
+    .seccion-sobre-mi .div-general-text .div-text h2{
+        font-size: 30px;
+    }
+
+    .seccion-sobre-mi .div-general-text .div-text p{
+        font-size: 20px;
+    }
+
+    /*Responsive para las letras de la seccion de proyectos*/
+}
+
+@media screen and (max-width: 360px){
+    /*Responsive para la seccion de "sobre mi"*/
+    .seccion-sobre-mi .div-general-text .div-titulo h1{
+        font-size: 40px;
+    }
+
+    .seccion-sobre-mi .div-general-text .div-text h2{
+        font-size: 25px;
+    }
+
+    .seccion-sobre-mi .div-general-text .div-text p{
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .div-general-texto .div-texto-centro .div-nombre h1{
+        font-size: 30px;
+    }
+
+    .div-general-texto .div-texto-centro .div-animacion{
+        font-size: 15px;
+    }
+    
+    .div-general-texto .div-texto-centro .div-animacion .oficio{
+        font-size: 15px;
+    }
+}

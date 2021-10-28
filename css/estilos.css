@@ -1,0 +1,554 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.navbar a {
+    font-family: 'Jost', sans-serif !important;
+    font-size: 20px !important;
+}
+
+ul li .activo {
+    color: #fff !important;
+    border-bottom: 2px solid #c70039;
+}
+
+
+/*Estilos para el inicio*/
+
+.div-color-fondo {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: -5;
+    background-color: #000;
+}
+
+.div-general-foto {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: -2;
+}
+
+.div-general-foto .div-blanco {
+    height: 100vh;
+}
+
+.div-general-foto .div-general-imagen {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.div-general-foto .div-general-imagen .div-img {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    width: 90%;
+}
+
+.div-general-foto .div-general-imagen .div-img img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 90%;
+}
+
+.div-general-texto .div-redes,
+.div-texto-centro,
+.div-contacto {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.625);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div-general-texto .div-redes a i,
+.div-contacto a i {
+    color: rgb(73, 73, 73);
+    font-size: 35px;
+    margin-top: 80%;
+}
+
+.div-general-texto .div-texto-centro .div-nombre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-general-texto .div-texto-centro .div-nombre h1 {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.div-general-texto .div-texto-centro .div-animacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Jost', sans-serif;
+    color: rgba(255, 255, 255, 0.400);
+    font-size: 30px;
+}
+
+.div-general-texto .div-texto-centro .div-animacion .oficio {
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
+    color: rgba(165, 42, 42, 0.600);
+    font-style: normal;
+}
+
+.div-general-texto .div-texto-centro .div-nombre .h1-rojo {
+    color: #c70039;
+}
+
+
+/*Estilos para la seccion de sobre mi*/
+
+.seccion-sobre-mi {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+}
+
+.seccion-sobre-mi .div-general-text {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.seccion-sobre-mi .div-general-text .div-titulo {
+    display: flex;
+    width: 80%;
+    padding-bottom: 10%;
+}
+
+.seccion-sobre-mi .div-general-text .div-titulo h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.seccion-sobre-mi .div-general-text .div-titulo h1:last-child {
+    font-family: 'Poppins', sans-serif;
+    color: #c70039;
+}
+
+.seccion-sobre-mi .div-general-text .div-text {
+    width: 80%;
+}
+
+.seccion-sobre-mi .div-general-text .div-text .div-subtitulo {
+    display: flex;
+}
+
+.seccion-sobre-mi .div-general-text .div-text h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: #c70039;
+}
+
+.seccion-sobre-mi .div-general-text .div-text h2:last-child {
+    color: #fff;
+}
+
+.seccion-sobre-mi .div-general-text .div-text p {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 20px;
+}
+
+.seccion-sobre-mi .div-general-img {
+    overflow: hidden;
+}
+
+.seccion-sobre-mi .div-general-img .div-imagen {
+    display: none;
+    justify-content: center;
+    align-items: flex-start;
+    height: auto;
+    width: 100%;
+    background-color: #000;
+}
+
+.seccion-sobre-mi .div-general-img .div-imagen img {
+    width: 80%;
+    margin-bottom: 5%;
+}
+
+.seccion-sobre-mi .div-general-img .div-fondo-imagen {
+    height: 100vh;
+    background: url(../imagenes/imagen\ demostracion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+/*Estilos para la seccion de servicios*/
+
+.seccion-servicios {
+    height: auto;
+    width: 100vw;
+    padding-bottom: 5%;
+    background-color: #000;
+}
+
+.seccion-servicios .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seccion-servicios .div-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.seccion-servicios .div-titulo .div-h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.seccion-servicios .div-titulo .div-h2 h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: #c70039;
+}
+
+.seccion-servicios .div-titulo .div-h2 h2:last-child {
+    color: #fff;
+}
+
+.seccion-servicios .div-general-servicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    overflow: hidden;
+}
+
+.seccion-servicios .div-general-servicio .div-servicio {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 85%;
+    height: 450px;
+    margin-top: 5%;
+    background-color: #191919;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.seccion-servicios .div-general-servicio .div-servicio .div-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30%;
+    background-color: #c70039;
+    margin-top: 5%;
+    width: 85px;
+    height: 85px;
+    border: 0px solid #c70039;
+    box-shadow: 0px 0px 0px 0px #c70039;
+    transition: all .8s ease;
+}
+
+.seccion-servicios .div-general-servicio .div-servicio .div-icon i {
+    font-size: 55px;
+    color: #fff;
+    z-index: 1;
+}
+
+.seccion-servicios .div-general-servicio .div-servicio:hover>.div-icon {
+    box-shadow: 0px 0px 0px 400px #c70039;
+}
+
+.seccion-servicios .div-general-servicio .div-servicio .div-descripcion {
+    width: 95%;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.seccion-servicios .div-general-servicio .div-servicio .div-descripcion h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+.seccion-servicios .div-general-servicio .div-servicio .div-descripcion p {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+
+/*Estilos para la seccion de proyectos*/
+
+.seccion-proyectos {
+    height: auto;
+    width: 100vw;
+    background-color: #000;
+}
+
+.seccion-proyectos .div-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.seccion-proyectos .div-titulo .div-h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.seccion-proyectos .div-titulo .div-h2 h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: #c70039;
+}
+
+.seccion-proyectos .div-titulo .div-h2 h2:last-child {
+    color: #fff;
+}
+
+.seccion-proyectos .div-general-proyecto {
+    overflow: hidden;
+}
+
+.seccion-proyectos .div-general-imagen {
+    display: flex;
+    height: auto;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+
+.seccion-proyectos .div-general-imagen .div-imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+}
+
+.seccion-proyectos .div-general-imagen .div-imagen .modelo-3d {
+    width: 100%;
+    height: 400px;
+}
+
+.seccion-proyectos .div-general-texto {
+    display: flex;
+    align-items: center;
+    height: auto;
+}
+
+.seccion-proyectos .div-general-texto .div-tarjeta {
+    position: absolute;
+    width: 45%;
+    height: auto;
+    margin-left: -3%;
+    margin-top: 10%;
+    padding-bottom: 5%;
+    background-color: #191919;
+}
+
+.seccion-proyectos .div-general-texto .div-tarjeta h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #c70039;
+    font-size: 40px;
+    margin-top: 6%;
+    margin-left: 6%;
+}
+
+.seccion-proyectos .div-general-texto .div-tarjeta p {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    text-align: justify;
+    width: 89%;
+    margin-top: 4%;
+    margin-left: 6%;
+}
+
+.seccion-proyectos .div-general-texto .div-tarjeta .btn-proyecto {
+    width: auto;
+    height: 35px;
+    border-radius: 5px;
+    margin-left: 6%;
+    margin-top: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    background-color: #c70039;
+    color: #fff;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    transition: 0.5s ease-out 0.01s;
+}
+
+.seccion-proyectos .div-general-texto .div-tarjeta .btn-proyecto-a {
+    width: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 5px;
+    margin-left: 6%;
+    margin-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #c70039;
+    color: #fff;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    transition: 0.5s ease-out 0.01s;
+    text-decoration: none;
+}
+
+.seccion-proyectos .div-general-texto .div-tarjeta .btn-proyecto:hover,
+.btn-proyecto-a:hover {
+    filter: drop-shadow(0px 0px 10px #c70039);
+}
+
+
+/*Estilos para la seccion de contacto*/
+
+.seccion-contacto {
+    background-color: #000;
+    height: auto;
+    padding-bottom: 10%;
+}
+
+.seccion-contacto .div-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin-bottom: 6%;
+}
+
+.seccion-contacto .div-titulo .div-h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6%;
+}
+
+.seccion-contacto .div-titulo .div-h2 h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: #c70039;
+}
+
+.seccion-contacto .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion-contacto .div-icon {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.seccion-contacto .div-icon a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    width: 90px;
+    border-radius: 50px;
+    transition: all .4s;
+    text-decoration: none;
+    font-size: 60px;
+}
+
+.seccion-contacto .div-icon .fa-facebook-f {
+    color: #0E34A0;
+    filter: drop-shadow(0px 0px 10px #0E34A0);
+}
+
+.seccion-contacto .div-icon .fa-instagram {
+    color: #750D37;
+    filter: drop-shadow(0px 0px 10px #750D37);
+}
+
+.seccion-contacto .div-icon .fa-whatsapp {
+    color: #04F06A;
+    filter: drop-shadow(0px 0px 10px #04F06A);
+}
+
+.seccion-contacto .div-icon .fa-envelope {
+    color: #EA4335;
+    filter: drop-shadow(0px 0px 10px #EA4335);
+}
+
+.seccion-contacto .a-fb:hover {
+    box-shadow: 0px 0px 50px #0E34A0;
+}
+
+.seccion-contacto .a-ins:hover {
+    box-shadow: 0px 0px 50px #750D37;
+}
+
+.seccion-contacto .a-whats:hover {
+    box-shadow: 0px 0px 30px #04F06A;
+}
+
+.seccion-contacto .a-gmail:hover {
+    box-shadow: 0px 0px 30px #EA4335;
+}
+
+
+/*Diseño para el footer*/
+
+footer {
+    width: 100vw;
+    height: 125px;
+    background-color: #191919;
+}
+
+footer .div-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100%;
+}
+
+footer .div-footer h6 {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer .div-footer h6 a {
+    color: #c70039;
+    text-decoration-color: #c70039;
+}
